@@ -1,36 +1,71 @@
 h1 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 500;
 }
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #F9E2E0;
     background-color: #665D5C;
 }
 
-
+/* header */
 header {
     display: flex;
-    height: 30em;
-    border: solid #80241C;
+    height: 35em;
+    border: solid #630E01;
+    background-color: #0F0D0D;
+    color: #f8efee;
+    margin: auto;
+    padding: 5em;
+    opacity: 0.8;
+}
+.headtext{
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    height: 100%;
+    align-items: center;
+}
+.headpic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 33%;
+}
+.headpic img{
+    height: 550px;
+    opacity: 0.9;
+    border-radius: 10%;
+}
+.headdesc{
+    display: flex;
+    height: 90%;
+    width: 33%;
+    align-items: flex-end;
+    font-style: italic;
 }
 
 main {
     height: 80em;
-    border: solid #80241C;
+    border: solid #630E01;
 }
-div{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: 40em;
-}
+
 .proj{
-    border: solid #80241C;
+    border: solid #630E01;
 }
 
 
 footer {
     display: flex;
-    height: 20vh;
+    height: 15em;
 }
