@@ -108,7 +108,13 @@ main {
     background-color: #665d5c5d;
     opacity: 0.3;
 }
-
+#mainp:hover h3{
+    font-size: 30px;
+}
+#mainp:active{
+    background-color:#000000;
+    opacity: 0.1;
+}
 
 #secp {
     height: 100%;
@@ -131,7 +137,14 @@ main {
     background-color: #665d5c5d;
     opacity: 0.6;
 }
-
+#smallproj1:active{
+    background-color:#000000;
+    opacity: 0.1;
+}
+#smallproj2:active{
+    background-color:#000000;
+    opacity: 0.1;
+}
 
 
 /* footer */
