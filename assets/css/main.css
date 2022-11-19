@@ -2,10 +2,12 @@ h1 {
     font-size: 40px;
     font-weight: 500;
 }
+
 h2 {
     font-size: 24px;
     font-weight: 500;
 }
+
 h3 {
     font-size: 20px;
     font-weight: 500;
@@ -20,7 +22,7 @@ body {
 /* header */
 header {
     display: flex;
-    height: 35em;
+    height: 40em;
     border: solid #630E01;
     background-color: #0F0D0D;
     color: #f8efee;
@@ -28,44 +30,111 @@ header {
     padding: 5em;
     opacity: 0.8;
 }
-.headtext{
+
+.headtext {
     display: flex;
     justify-content: flex-end;
     width: 33%;
     height: 100%;
     align-items: center;
 }
-.headpic{
+
+.headpic {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 33%;
 }
-.headpic img{
+
+.headpic img {
     height: 550px;
     opacity: 0.9;
     border-radius: 10%;
 }
-.headdesc{
+
+.headdesc {
     display: flex;
     height: 90%;
     width: 33%;
     align-items: flex-end;
     font-style: italic;
 }
+/* ----------------------- */
 
 main {
-    height: 80em;
+    display: flex;
+    height: 100em;
     border: solid #630E01;
+    flex-flow: column;
 }
 
-.proj{
+.aboutme {
+    display: flex;
+    height: 40em;
+    padding: 20px;
+    margin: auto;
     border: solid #630E01;
+    align-items: center;
 }
 
-
-footer {
+.projdesc{
     display: flex;
     height: 15em;
+    align-items: center;
+    margin: auto;
+    padding: 2em;
+    flex-direction: column;
+}
+.projects {
+    display: flex;
+    height: 100%;
+    border: solid #630E01;
+    flex-flow: column wrap;
+}
+
+.proj {
+    border: solid #630E01;
+}
+
+#mainp {
+    height: 100%;
+}
+
+#secp {
+    height: 100%;
+}
+
+#smallproj {
+    height: 50%;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    height: 20em;
+    padding: 5em;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+.clink{
+    margin: auto;
+    padding: 2em;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* ------------------ */
+
+a{
+    color: #630E01;
+}
+a:hover{
+    text-decoration: underline;
 }
