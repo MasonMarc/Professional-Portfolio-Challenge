@@ -1,0 +1,36 @@
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9E2E0;
+    background-color: #665D5C;
+}
+
+
+header {
+    display: flex;
+    height: 30em;
+    border: solid #80241C;
+}
+
+main {
+    height: 80em;
+    border: solid #80241C;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 40em;
+}
+.proj{
+    border: solid #80241C;
+}
+
+
+footer {
+    display: flex;
+    height: 20vh;
+}

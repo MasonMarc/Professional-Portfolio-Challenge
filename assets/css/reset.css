@@ -1,0 +1,11 @@
+/* reset css to remove any formatting done by the browser */
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
