@@ -112,10 +112,9 @@ main {
 .aboutme {
     display: flex;
     height: 40em;
-    padding: 20px;
-    margin: auto;
+    padding: 40px;
     border: solid #630E01;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .projdesc{
@@ -144,6 +143,7 @@ main {
     background-image: url("../images/Screen\ Shot\ SEO.png");
     align-items: center;
 }
+
 #mainp:hover{
     background-color: #665d5c5d;
     opacity: 0.3;
