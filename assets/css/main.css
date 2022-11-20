@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-size: 40px;
     font-weight: 500;
@@ -62,6 +66,42 @@ header {
 }
 /* ----------------------- */
 
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-evenly;
+    background-color: #630E01;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 5em;
+}
+.navbutton{
+    margin: auto;
+    display: flex;
+    height: 190%;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    position: relative;
+}
+.navbar a{
+    color: #f8efee;
+}
+div.navbutton:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+.navbutton span{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* ---------- */
 main {
     display: flex;
     height: 100em;
@@ -82,9 +122,9 @@ main {
     display: flex;
     height: 15em;
     align-items: center;
-    margin: auto;
     padding: 2em;
     flex-direction: column;
+    justify-content: center;
 }
 .projects {
     display: flex;
