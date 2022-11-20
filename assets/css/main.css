@@ -143,13 +143,16 @@ main {
     background-image: url("../images/Screen\ Shot\ SEO.png");
     align-items: center;
 }
-
+#mainp a{
+    height: 100%;
+}
 #mainp:hover{
     background-color: #665d5c5d;
     opacity: 0.3;
 }
 #mainp:hover h3{
     font-size: 30px;
+    color: white;
 }
 #mainp:active{
     background-color:#000000;
@@ -157,26 +160,33 @@ main {
 }
 
 #secp {
+    display: flex;
     height: 100%;
+    flex-direction: column;
 }
-
-#smallproj1, #smallproj2 {
+#secp a{
     height: 50%;
 }
+#smallproj1, #smallproj2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #smallproj1{
     background-image: url("../images/preworksh.png");
 }
 #smallproj2{
     background-image: url("../images/pracsitesh.png");
 }
-#smallproj1:hover{
-    background-color: #665d5c5d;
-    opacity: 0.6;
+#smallproj1:hover, #smallproj2:hover{
+    background-color: #630E01;
+    opacity: 0.3;
+    color: white;
+    font-size: 24px;
 }
-#smallproj2:hover{
-    background-color: #665d5c5d;
-    opacity: 0.6;
-}
+
 #smallproj1:active{
     background-color:#000000;
     opacity: 0.1;
