@@ -38,7 +38,7 @@ header {
 .headtext {
     display: flex;
     justify-content: flex-end;
-    width: 33%;
+    width: 100%;
     height: 100%;
     align-items: center;
 }
@@ -48,7 +48,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 33%;
+    width: 100%;
 }
 
 .headpic img {
@@ -60,7 +60,7 @@ header {
 .headdesc {
     display: flex;
     height: 90%;
-    width: 33%;
+    width: 100%;
     align-items: flex-end;
     font-style: italic;
 }
