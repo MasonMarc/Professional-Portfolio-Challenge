@@ -1,7 +1,6 @@
-html{
-    scroll-behavior: smooth;
-}
 
+
+/* Gives formatting to headers due to reset removing browser default */
 h1 {
     font-size: 40px;
     font-weight: 500;
@@ -16,7 +15,8 @@ h3 {
     font-size: 20px;
     font-weight: 500;
 }
-
+/* ------------------------------- */
+/* sets formatting for body of website */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #F9E2E0;
@@ -64,6 +64,7 @@ header {
     align-items: flex-end;
     font-style: italic;
 }
+/* set header up, width 100% makes it to where each section takes up the entirety of the flex container it is in */
 /* ----------------------- */
 
 /* navbar */
@@ -77,6 +78,8 @@ header {
     flex-wrap: wrap;
     height: 5em;
 }
+/* TODO Fix CSS to make less redundant */
+
 .navbutton{
     margin: auto;
     display: flex;
@@ -89,10 +92,12 @@ header {
 .navbar a{
     color: #f8efee;
 }
+/* Makes it to where on hover, the entire div changes color */
 div.navbutton:hover{
     background-color: black;
     opacity: 0.5;
 }
+
 .navbutton span{
     height: 100%;
     width: 100%;
@@ -146,6 +151,7 @@ main {
 #mainp a{
     height: 100%;
 }
+/* sets it to where on hover, the entire div will darken and the text will be brighter */
 #mainp:hover{
     background-color: #665d5c5d;
     opacity: 0.3;
@@ -154,6 +160,7 @@ main {
     font-size: 30px;
     color: white;
 }
+/* set it to where on click, the entire div darkens even more */
 #mainp:active{
     background-color:#000000;
     opacity: 0.1;
@@ -225,3 +232,7 @@ a{
 a:hover{
     text-decoration: underline;
 }
+/* Makes scrolling when you press a link */
+html{
+    scroll-behavior: smooth;
+} 

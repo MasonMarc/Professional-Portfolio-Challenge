@@ -33,3 +33,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 [CSS Reset](https://meyerweb.com/eric/tools/css/reset/)
 
 [CSS and HTML Tips](https://www.w3schools.com/)
+
+[CSS EM Measurement](https://www.w3.org/Style/Examples/007/units.en.html)
+
+[FlexBox Tips](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
