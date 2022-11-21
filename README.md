@@ -37,3 +37,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 [CSS EM Measurement](https://www.w3.org/Style/Examples/007/units.en.html)
 
 [FlexBox Tips](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+[Responsiveness and the Media Query](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)

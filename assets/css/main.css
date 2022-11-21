@@ -236,3 +236,13 @@ a:hover{
 html{
     scroll-behavior: smooth;
 } 
+
+/* adds responsiveness to make header readible with screens less than 700px */
+@media only screen and (max-width: 700px){
+    header{
+        flex-flow: row wrap;
+        font-size: 16px;
+        height: 100%;
+    }
+    
+}
