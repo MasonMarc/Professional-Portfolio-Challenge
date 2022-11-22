@@ -157,7 +157,10 @@ main {
 }
 #mainp:hover h3{
     font-size: 30px;
-    color: white;
+    color: orange;
+    font-weight: 900;
+    opacity: 1;
+    background-color: #000000;
 }
 /* set it to where on click, the entire div darkens even more */
 #mainp:active{
@@ -192,7 +195,11 @@ main {
     color: white;
     font-size: 24px;
 }
-
+#smallproj1:hover h3 , #smallproj2:hover h3{
+    background-color: #000000;
+    color: orange;
+    font-size: 24px;
+}
 #smallproj1:active{
     background-color:#000000;
     opacity: 0.1;
